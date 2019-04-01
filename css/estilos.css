@@ -264,10 +264,47 @@ footer .media .instagram:hover { background: #3f729b; }
   footer .media{
   padding: 5px 0;
   }
+  header .contenedor-texto{
 
+    margin:90px 0;
 
+  }
+
+}
+@media screen and (max-width: 380px) {
+  header .menu {
+    margin-bottom: 1px;
+  }
+
+  header .menu a{
+margin:20px 20px;
+
+  }
+header .contenedor-texto .texto{
+
+  padding: 5px 8px;
+}
 header .contenedor-texto{
 
-  margin:90px 0;
+margin-top: 10px;
+
+}
+.main .desarrollo .contenedor-desarrollo .trabajo {
+  width: 100%;
+}
+	header .contenedor-texto .texto .nombre {
+		font-size: 20px;
+	}
+	header .contenedor-texto .texto .profesion {
+		font-size: 15px;
+	}
+	footer .media .contenedor {
+		flex-wrap:wrap;
+		padding: 20px 0;
+	}
+
+  footer .media{
+  padding: 5px 0;
+  }
 
 }
